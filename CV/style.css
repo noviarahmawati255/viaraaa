@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: #dceff5;
+    color: #172b4d;
+}
+
+.cv {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #174c80;
+}
+
+h1 {
+    color: #174c80;
+    margin: 5px 0;
+    font-size: 38px;
+}
+
+.header h3 {
+    color: #4d8c8c;
+    margin: 10px 0;
+}
+
+/* FOTO */
+
+.foto {
+    width: 130px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    border: 4px solid #8fcaca;
+}
+
+/* BAGIAN CV */
+
+.bagian {
+    margin-top: 25px;
+}
+
+.bagian h2 {
+    display: inline-block;
+    background: #dff59a;
+    color: #173b52;
+    padding: 7px 25px;
+    border-radius: 20px;
+    font-size: 19px;
+}
+
+.bagian p {
+    line-height: 1.6;
+}
+
+/* KEAHLIAN */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skills span {
+    background: #e0f2f1;
+    border: 1px solid #80bcbc;
+    padding: 7px 12px;
+    border-radius: 15px;
+}
+
+/* PENGALAMAN */
+
+.pengalaman {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background: #edf8f7;
+    border-left: 4px solid #5f9d9d;
+    border-radius: 6px;
+}
+
+/* TABEL */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+th {
+    background: #174c80;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background: #eef8fa;
+}
+
+/* LINK */
+
+a {
+    color: #174c80;
+    text-decoration: none;
+}
+
+/* HP */
+
+@media screen and (max-width: 650px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .cv {
+        padding: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .foto {
+        margin-top: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    table {
+        font-size: 10px;
+    }
+}
