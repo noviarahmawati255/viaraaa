@@ -1,3 +1,4 @@
-# viaraaa
+# CV Saya
 
-![Preview Sistem Pengelolaan Nilai Mahasiswa](image/preview.png)
+## Preview CV
+![Preview CV](preview_cv.png)
