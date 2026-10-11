@@ -1,3 +1,3 @@
 # viaraaa
 
-![Preview Sistem Pengelolaan Nilai Mahasiswa](images/preview.png)
+![Preview Sistem Pengelolaan Nilai Mahasiswa](image/preview.png)
